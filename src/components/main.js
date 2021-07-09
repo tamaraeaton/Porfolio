@@ -9,7 +9,7 @@ const Main = () => {
 <div className="w3-top">
   <div className="w3-row w3-padding w3-black">
     <div className="w3-col s3">
-      <a href="#" className="w3-button w3-block w3-black">HOME</a>
+      {/* <a href="#home" className="w3-button w3-block w3-black">HOME</a> */}
     </div>
     <div className="w3-col s3">
       <a href="#about" className="w3-button w3-block w3-black">ABOUT</a>
@@ -51,7 +51,7 @@ const Main = () => {
       <p><i>lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</i></p>
       <p>whatever is here</p>
     </div>
-    <img src="/assets/images/coffeeshop.jpg" className="w3-margin-top"></img>
+    <img src="/assets/images/coffeeshop.jpg" className="w3-margin-top" alt="coffeeshop"></img>
     <p><strong>Email:</strong> xx</p>
     <p><strong>Address:</strong> xxx</p>
   </div>
@@ -64,12 +64,12 @@ const Main = () => {
     <h5 className="w3-center w3-padding-48"><span className="w3-tag w3-wide">THE MENU</span></h5>
   
     <div className="w3-row w3-center w3-card w3-padding">
-      <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
+      {/* <a href="#" id="myLink">
         <div className="w3-col s6 tablink">Eat</div>
-      </a>
-      <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
+      </a> */}
+      {/* <a href="#" >
         <div className="w3-col s6 tablink">Drink</div>
-      </a>
+      </a> */}
     </div>
 
     <div id="Eat" className="w3-container menu w3-padding-48 w3-card">
@@ -105,7 +105,7 @@ const Main = () => {
       <h5>Soda</h5>
       <p className="w3-text-grey">Coke, Sprite, Fanta, etc. 2.50</p>
     </div>  
-    {/* <img src="./assets/images/coffeeshop.jpg" style={{width:100 + "%", maxWidth:1000 + "px", marginTop:32 + "px"}}></img> */}
+    {/* <img src="./assets/images/coffeeshop.jpg" style={{width:100 + "%", maxWidth:1000 + "px", marginTop:32 + "px"}} alt="coffeeshop"></img> */}
   </div>
 </div>
 
@@ -132,7 +132,7 @@ const Main = () => {
 
 
 <footer className="w3-center w3-light-grey w3-padding-48 w3-large">
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" className="w3-hover-text-green">w3.css</a></p>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" rel="noreferrer" title="W3.CSS" target="_blank" className="w3-hover-text-green">w3.css</a></p>
 </footer>
 
 
